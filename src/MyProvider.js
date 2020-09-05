@@ -36,7 +36,7 @@ class MyProvider extends React.Component {
         }
         // console.log(event.target.value);
         // console.log(event.target.name);
-        Axios.post('http://localhost:8080/items/filter', details)
+        Axios.post('https://reactecommserver.herokuapp.com/items/filter, details)
         .then(res => {
           let items = [...res.data];
           this.setState({
