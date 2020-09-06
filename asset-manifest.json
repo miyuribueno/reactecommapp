@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reactecommapp/static/css/main.fe4c312b.chunk.css",
-    "main.js": "/reactecommapp/static/js/main.3f7bb2d3.chunk.js",
-    "main.js.map": "/reactecommapp/static/js/main.3f7bb2d3.chunk.js.map",
+    "main.css": "/reactecommapp/static/css/main.225fcf41.chunk.css",
+    "main.js": "/reactecommapp/static/js/main.1434a448.chunk.js",
+    "main.js.map": "/reactecommapp/static/js/main.1434a448.chunk.js.map",
     "runtime-main.js": "/reactecommapp/static/js/runtime-main.85a13bad.js",
     "runtime-main.js.map": "/reactecommapp/static/js/runtime-main.85a13bad.js.map",
     "static/js/2.6600b1cc.chunk.js": "/reactecommapp/static/js/2.6600b1cc.chunk.js",
     "static/js/2.6600b1cc.chunk.js.map": "/reactecommapp/static/js/2.6600b1cc.chunk.js.map",
     "index.html": "/reactecommapp/index.html",
-    "precache-manifest.1bb7ffb3d6642c7dc4062cdbdcca9750.js": "/reactecommapp/precache-manifest.1bb7ffb3d6642c7dc4062cdbdcca9750.js",
+    "precache-manifest.a45488c3ecc46cdaf62b5e61b9a9acff.js": "/reactecommapp/precache-manifest.a45488c3ecc46cdaf62b5e61b9a9acff.js",
     "service-worker.js": "/reactecommapp/service-worker.js",
-    "static/css/main.fe4c312b.chunk.css.map": "/reactecommapp/static/css/main.fe4c312b.chunk.css.map",
+    "static/css/main.225fcf41.chunk.css.map": "/reactecommapp/static/css/main.225fcf41.chunk.css.map",
     "static/js/2.6600b1cc.chunk.js.LICENSE.txt": "/reactecommapp/static/js/2.6600b1cc.chunk.js.LICENSE.txt",
     "static/media/cart.png": "/reactecommapp/static/media/cart.3d5da99e.png",
     "static/media/logo.png": "/reactecommapp/static/media/logo.77c9b3cc.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.85a13bad.js",
     "static/js/2.6600b1cc.chunk.js",
-    "static/css/main.fe4c312b.chunk.css",
-    "static/js/main.3f7bb2d3.chunk.js"
+    "static/css/main.225fcf41.chunk.css",
+    "static/js/main.1434a448.chunk.js"
   ]
 }
