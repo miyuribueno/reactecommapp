@@ -245,6 +245,10 @@ box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.6);
 
 }
 
+#signUpBtnLink {
+  width: 100%;
+}
+
 .formBtn:hover {
   background: none;
   color: #0f4c75;

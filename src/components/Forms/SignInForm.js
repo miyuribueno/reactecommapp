@@ -2,10 +2,9 @@ import React from 'react';
 import Axios from'axios';
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
+import { isWidthDown } from '@material-ui/core';
 
 class SignInForm extends React.Component {
 
@@ -25,7 +24,6 @@ class SignInForm extends React.Component {
         if(this.state.username.trim() === '' || this.state.password.trim() === ''){
             alert("please fill up the form");
         }else {
-
             Axios.post('https://reactecommserver.herokuapp.com/users/signIn', userDetails)
             .then(res => {
                 if(res.data.error){
@@ -55,7 +53,7 @@ class SignInForm extends React.Component {
                     <h2 className="title">Sign In</h2>
                     Username: <input type="text" value={this.state.username} name="username" onChange={this.inputChangeHandler} />
                     Password: <input type="password" value={this.state.password} name="password" onChange={this.inputChangeHandler} />
-                    <button onClick={(e)=>{this.signIn(userDetails)}} className="formBtn">Sign In</button>
+                    <Link to="/items" id="signUpBtnLink"><button onClick={(e)=>{this.signIn(userDetails)}} className="formBtn">Sign In</button></Link>
                     <Link to="/signUp">Sign up</Link>
                 </div>
             </React.Fragment>
