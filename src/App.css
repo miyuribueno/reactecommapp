@@ -106,6 +106,23 @@ box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.6);
   width: 30px;
 }
 
+#cartContainer button {
+  background: none;
+}
+
+#cartCount {
+  text-align: center;
+  border-radius: 100%;
+  background: #f50057;
+  padding: 3px;
+  width: 21px;
+  height: 21px;
+  color: white;
+  margin-left: -5px;
+  font-weight: bold;
+  font-size: small;
+}
+
 #addItemContainer img, #editItemContainer img, #deleteItemContainer img {
   width: 120px;
 }
@@ -116,8 +133,11 @@ box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.6);
 }
 
 #cartContainer {
-  width: 55px;
+  display: flex;
+  align-content: center;
+  width: 100px;
   text-align: left;
+  background: white;
 }
 
 #addItemForm {
@@ -339,6 +359,7 @@ box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.6);
   background: #9dc6e2;
   padding: 15px;
   border-radius: 15px;
+  width: 85%;
 }
 
 #checkOutTable {

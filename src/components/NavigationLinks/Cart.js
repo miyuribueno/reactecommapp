@@ -20,7 +20,7 @@ const Cart = (props) => {
         <React.Fragment>
             <div id="cartContainer">
                 <Link to="/myCart"><button><ShoppingCartIcon color="primary" fontSize="large" /></button></Link>
-                <span>{noOfItems}</span>
+                <span id="cartCount">{noOfItems}</span>
             </div>
         </React.Fragment>
     )

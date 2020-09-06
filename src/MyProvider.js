@@ -19,7 +19,7 @@ class MyProvider extends React.Component {
             userLoggedIn: user._id,
             userRole: user.role
         })
-        console.log(this.state.userRole)
+      this.updateItems(this.state.items)
     }
 
     updateItems = (items)=> {
